@@ -26,18 +26,23 @@ public class Main {
 
 			if(pars[1].equals("-"))
 				substaction(x, y);
+			
 			if(pars[1].equals("+"))
 				addition(x,y);
-			if(pars[1].equals("*")) {
-				//TOODO
-			}
+
+			if(pars[1].equals("*"))
+				multiplication(x,y);
+
 		}while (!s.equals("kraj"));
 	}
 
 	public static void substaction(int x, int y) {
 		System.out.println(x-y);
 	}
-
+	
+	public static void multiplication(int x, int y) {
+		System.out.println(x*y);
+	}
 		
 	
 	public static void addition(int x, int y) {
