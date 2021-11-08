@@ -28,6 +28,9 @@ public class Main {
 				substaction(x, y);
 			if(pars[1].equals("+"))
 				addition(x,y);
+			if(pars[1].equals("*")) {
+				//TOODO
+			}
 		}while (!s.equals("kraj"));
 	}
 
